@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+$LOAD_PATH.unshift(File.dirname(File.realpath(__FILE__)) + '/../lib')
+
+require 'cache_box'
+
+cli = CacheBox::CLI.new
+cli.run
+
+puts 'Finished'

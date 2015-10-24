@@ -1,0 +1,6 @@
+require 'pry'
+require 'cache_box/version'
+require 'cache_box/coin'
+require 'cache_box/cli'
+require 'cache_box/cache_box'
+require 'cache_box/coins_missing_error'
